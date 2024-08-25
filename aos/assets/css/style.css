@@ -1,0 +1,637 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+    color: white;
+}
+.fixbg{
+    height: auto;
+    width: 100%;
+    background-image: url(../media/fix.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.opacity{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(65, 8, 236, 0.749);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.bg1{
+    height: 100vh;
+    width: 100%;
+}
+.fbg1{
+    height: 20vh;
+    flex-basis: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 2rem;
+}
+.git{
+    height: 4.5rem;
+    width: 4.5rem;
+    background-image: url(../media/github.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.fbg2{
+    height: 62vh;
+    flex-basis: 30%;
+    position: relative;
+    top: 4rem;
+    text-align: center;
+}
+.fbg2 .p1{
+    font-weight: 700;
+    font-size: 3.8rem;
+    color: rgb(41, 44, 72);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.fbg2 .p2{
+    font-size: 1.6rem;
+    line-height: 7rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+.fbg2 .p3{
+    font-size: 1rem;
+    line-height: 4rem;
+    padding-top: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+.font{
+    color: rgb(249, 55, 100);
+}
+.arrow{
+    width: 100%;
+    height: 5rem;
+    font-size: 2rem;
+    position: relative;
+    animation: scroll 0.7s ease-in-out 0s infinite alternate forwards;
+}
+@keyframes scroll {
+    0%{
+        top: 0;
+    }
+    100%{
+        top: 10px;
+    }
+}
+.bg2{
+    height: 495.5vh;
+    width: 100%;
+}
+.bg2a{
+    height: 15vh;
+    width: 74%;
+    position: relative;
+    left: 12%;
+    text-align: center;
+}
+hr{
+    height: 0.1px; 
+    background-color: rgba(255, 255, 255, 0.397); 
+    border: none; 
+}
+.gp1{
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 5.4rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.div1{
+    width: 30.4%;
+    height: 34.4vh;
+    background-color: rgb(36, 30, 61);
+    border: 0.6rem solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 12%;
+    top: 5.9rem;
+}
+.div2{
+    width: 30.4%;
+    height: 34.4vh;
+    background-color: rgb(36, 30, 61);
+    border: 0.6rem solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 57.5%;
+    top: 14.6rem;
+}
+.div3{
+    width: 30.4%;
+    height: 34.4vh;
+    background-color: rgb(36, 30, 61);
+    border: 0.6rem solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 12%;
+    top: 23.3rem;
+}
+.div4{
+    width: 30.4%;
+    height: 34.4vh;
+    background-color: rgb(36, 30, 61);
+    border: 0.6rem solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 57.5%;
+    top: 31.75rem;
+}
+.div5{
+    width: 30.4%;
+    height: 34.4vh;
+    background-color: rgb(36, 30, 61);
+    border: 0.6rem solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 12%;
+    top: 40.5rem;
+}
+.div6{
+    width: 30.4%;
+    height: 34.4vh;
+    background-color: rgb(36, 30, 61);
+    border: 0.6rem solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 57.5%;
+    top: 52.1rem;
+}
+.div7{
+    width: 30.4%;
+    height: 34.4vh;
+    background-color: rgb(36, 30, 61);
+    border: 0.6rem solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 12%;
+    top: 60.7rem;
+}
+.div8{
+    width: 30.4%;
+    height: 34.4vh;
+    background-color: rgb(36, 30, 61);
+    border: 0.6rem solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 57.5%;
+    top: 69.55rem;
+}
+.bg3{
+    height: 255vh;
+    width: 100%;
+}
+.div9{
+    width: 30.4%;
+    height: 34.4vh;
+    background-color: rgb(36, 30, 61);
+    border: 0.6rem solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 12%;
+    top: 5.9rem;
+}
+.div10{
+    width: 30.4%;
+    height: 34.4vh;
+    background-color: rgb(36, 30, 61);
+    border: 0.6rem solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 57.5%;
+    top: 14.6rem;
+}
+.div11{
+    width: 30.4%;
+    height: 34.4vh;
+    background-color: rgb(36, 30, 61);
+    border: 0.6rem solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 12%;
+    top: 23.3rem;
+}
+.div12{
+    width: 30.4%;
+    height: 34.4vh;
+    background-color: rgb(36, 30, 61);
+    border: 0.6rem solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 57.5%;
+    top: 31.75rem;
+}
+.bg4{
+    height: 620vh;
+    width: 100%;
+}
+.div13{
+    width: 30.4%;
+    height: 34.4vh;
+    background-color: rgb(36, 30, 61);
+    border: 0.6rem solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 12%;
+    top: 5.9rem;
+}
+.div14{
+    width: 30.4%;
+    height: 34.4vh;
+    background-color: rgb(36, 30, 61);
+    border: 0.6rem solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 57.5%;
+    top: 14.6rem;
+}
+.div15{
+    width: 30.4%;
+    height: 34.4vh;
+    background-color: rgb(36, 30, 61);
+    border: 0.6rem solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 12%;
+    top: 23.3rem;
+}
+.div16{
+    width: 30.4%;
+    height: 34.4vh;
+    background-color: rgb(36, 30, 61);
+    border: 0.6rem solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 57.5%;
+    top: 31.75rem;
+}
+.div17{
+    width: 30.4%;
+    height: 34.4vh;
+    background-color: rgb(36, 30, 61);
+    border: 0.6rem solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 12%;
+    top: 40.5rem;
+}
+.div18{
+    width: 30.4%;
+    height: 34.4vh;
+    background-color: rgb(36, 30, 61);
+    border: 0.6rem solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 57.5%;
+    top: 52.1rem;
+}
+.div19{
+    width: 30.4%;
+    height: 34.4vh;
+    background-color: rgb(36, 30, 61);
+    border: 0.6rem solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 12%;
+    top: 60.7rem;
+}
+.div20{
+    width: 30.4%;
+    height: 34.4vh;
+    background-color: rgb(36, 30, 61);
+    border: 0.6rem solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 57.5%;
+    top: 69.55rem;
+}
+.div21{
+    width: 30.4%;
+    height: 34.4vh;
+    background-color: rgb(36, 30, 61);
+    border: 0.6rem solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 12%;
+    top: 79.7rem;
+}
+.div22{
+    width: 30.4%;
+    height: 34.4vh;
+    background-color: rgb(36, 30, 61);
+    border: 0.6rem solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 57.5%;
+    top: 89.55rem;
+}
+.bg5{
+    height: 381vh;
+    width: 100%;
+}
+.div23{
+    width: 30.4%;
+    height: 34.4vh;
+    background-color: rgb(36, 30, 61);
+    border: 0.6rem solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 12%;
+    top: 5.9rem;
+}
+.div24{
+    width: 30.4%;
+    height: 34.4vh;
+    background-color: rgb(36, 30, 61);
+    border: 0.6rem solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 57.5%;
+    top: 14.6rem;
+}
+.div25{
+    width: 30.4%;
+    height: 34.4vh;
+    background-color: rgb(36, 30, 61);
+    border: 0.6rem solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 12%;
+    top: 23.3rem;
+}
+.div26{
+    width: 30.4%;
+    height: 34.4vh;
+    background-color: rgb(36, 30, 61);
+    border: 0.6rem solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 57.5%;
+    top: 31.75rem;
+}
+.div27{
+    width: 30.4%;
+    height: 34.4vh;
+    background-color: rgb(36, 30, 61);
+    border: 0.6rem solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 12%;
+    top: 40.5rem;
+}
+.div28{
+    width: 30.4%;
+    height: 34.4vh;
+    background-color: rgb(36, 30, 61);
+    border: 0.6rem solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 57.5%;
+    top: 52.1rem;
+}
+.bg6{
+    height: 376vh;
+    width: 100%;
+}
+.div29{
+    width: 45.7%;
+    height: 34.4vh;
+    background-color: rgb(36, 30, 61);
+    border: 0.6rem solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 12%;
+    top: 5.9rem;
+}
+.div30{
+    width: 45.7%;
+    height: 34.4vh;
+    background-color: rgb(36, 30, 61);
+    border: 0.6rem solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 42.3%;
+    top: 14.6rem;
+}
+.div31{
+    width: 45.7%;
+    height: 34.4vh;
+    background-color: rgb(36, 30, 61);
+    border: 0.6rem solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 12%;
+    top: 23.3rem;
+}
+.div32{
+    width: 45.7%;
+    height: 34.4vh;
+    background-color: rgb(36, 30, 61);
+    border: 0.6rem solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 42.3%;
+    top: 31.75rem;
+}
+.div33{
+    width: 45.7%;
+    height: 34.4vh;
+    background-color: rgb(36, 30, 61);
+    border: 0.6rem solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 12%;
+    top: 40.5rem;
+}
+.div34{
+    width: 45.7%;
+    height: 34.4vh;
+    background-color: rgb(36, 30, 61);
+    border: 0.6rem solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 42.3%;
+    top: 52.1rem;
+}
+.bg7{
+    height: 60vh;
+    width: 100%;
+    background-color: rgb(36, 30, 61);
+}
+.hljs-value{
+    color: orange;
+}
+@media (max-width:1024px) {
+    .bg1{
+        height: 110vh;
+    }
+    .git{
+        height: 3.5rem;
+        width: 3.5rem;
+    }
+    .fbg2{
+        height: 54vh;
+        top: 0;
+    }
+    .fbg2 .p1{
+        font-size: 3.4rem;
+    }
+    .fbg2 .p2{
+        font-size: 1.3rem;
+        line-height: 6rem;
+    }
+    .fbg2 .p3{
+        font-size: 0.9rem;
+        line-height: 3rem;
+        padding-top: 0;
+    }
+    .arrow{
+        font-size: 1.8rem;
+    }
+    .bg2{
+        height: 570vh;
+    }
+    .bg3{
+        height: 295vh;
+    }
+    .bg4{
+        height: 720vh;
+        width: 100%;
+    }
+    .bg5{
+        height: 440vh;
+        width: 100%;
+    }
+    .bg6{
+        height: 440vh;
+        width: 100%;
+    }
+    .div22{
+        left: 56.5%;
+    }
+}
+@media (max-width:768px) {
+    *{
+        font-size: 0.8rem;
+    }
+    .font{
+        font-size: 1.5rem;
+    }
+    .div22{
+        left: 53.5%;
+    }
+    .div8{
+        left: 52.5%;
+    }
+    .div6{
+        left: 52.5%;
+    }
+    .div4{
+        left: 52.5%;
+    }
+}
+@media (max-width:426px) {
+    *{
+        overflow: scroll;
+    } 
+    .gp1{
+        font-size: 1.6rem;
+        font-weight: 500;
+        line-height: 2.5rem;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .div22{
+        left: 42.5%;
+    }
+    .div8{
+        left: 42.5%;
+    }
+    .div4{
+        left: 42.5%;
+    }
+    .div6{
+        left: 42.5%;
+    }
+    .div16{
+        left: 42.5%;
+    }
+}

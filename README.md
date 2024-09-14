@@ -13,7 +13,7 @@ This project is a sleek and responsive clone of the AOS UI, designed to bring st
 
 ## Get Started
 
-1. **Clone the repository**: `git clone https://github.com/yourusername/aos-ui-clone.git`
+1. **Clone the repository**: `git clone https://github.com/not-hamid/aos-ui-clone.git`
 2. **Open `index.html`**: View the magic in your browser.
 3. **Customize and Build**: Tweak animations, styles, and make it your own!
 
